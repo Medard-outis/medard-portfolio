@@ -177,6 +177,28 @@ nav{
     text-transform: capitalize;
     color: var(--text-color-third);
 }
+.featured-text-info{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: var(--text-color-second);
+}
+.featured-text-btn{
+    display: flex;
+    gap: 20px;
+}
+.featured-text-btn>.blue-btn{
+    background-color: var(--first-color);
+    color: var(--color-white);
+}
+.featured-text-btn>.blue-btn:hover{
+    background-color: var(--first-color-hover);
+}
+
+.social_icons{
+    display: flex;
+    margin-top: 5px;
+}
+
 
 /* ---------- FEATURED IMAGES BOX ---------- */
 
