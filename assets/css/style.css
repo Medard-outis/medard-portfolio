@@ -160,8 +160,26 @@ nav{
     padding: 20px;
     
 }
+.featured-text-card span{
+    background-color: var(--third-color);
+    color: var(--color-white);
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+.featured-name{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-block: 20px;
+}
+.typedText{
+    text-transform: capitalize;
+    color: var(--text-color-third);
+}
 
 /* ---------- FEATURED IMAGES BOX ---------- */
+
 
 /* ---------- MAIN BOX ---------- */
 
