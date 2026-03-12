@@ -137,13 +137,29 @@ nav{
 /* ---------- WRAPPERDESIGN ---------- */
 
 .wrapper{
-    height: 100vh;
-    background-color: aqua;
+  padding-inline: 10vw;
 }
 
 /* ---------- FRATURED BOX ---------- */
+.featured-box{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    min-height: 700px;
+}
 
 /* ---------- FEATURED TEXT BOX ---------- */
+.featured-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    min-height: 80vh;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    
+}
 
 /* ---------- FEATURED IMAGES BOX ---------- */
 
