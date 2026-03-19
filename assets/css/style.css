@@ -298,7 +298,7 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: red;
+        background: var(--body-color);
         backdrop-filter: blur(10px);
         width: 100%;
         min-height: 450px;
