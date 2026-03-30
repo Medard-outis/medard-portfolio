@@ -471,6 +471,29 @@ nav{
         width: 150px;
         height: 150px;
     }
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .col{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+    }
+    .project-box{
+        width: 100%;
+    }
+    .project-container{
+        justify-content: center;
+    }
+    .project-box{
+        height: 200px;
+    }
 
 }
 
