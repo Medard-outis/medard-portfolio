@@ -492,12 +492,17 @@ nav{
         justify-content: center;
     }
     .project-box{
-        height: 200px;
+        height:80%;
     }
 
 }
 
 /* ---------- MEDIA QUERY == 540px / RESPONSIVE ---------- */
-
-
- 
+@media only screen and (max-width: 540px) {
+    .featured-name{
+        font-size: 40px;
+    }
+    .project-box{
+        width: 100%;
+    }
+}
