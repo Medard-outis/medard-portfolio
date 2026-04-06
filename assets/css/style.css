@@ -567,7 +567,7 @@ textarea{
         justify-content: center;
         width: 100%;
     }
-    .about-info{
+    .about-info, .contact-info{
         width: 100%;
     }
     .project-box{
@@ -588,6 +588,12 @@ textarea{
         font-size: 40px;
     }
     .project-box{
+        width: 100%;
+    }
+    .form-input{
+        flex-direction: column;
+    }
+    .input-field{
         width: 100%;
     }
 }
