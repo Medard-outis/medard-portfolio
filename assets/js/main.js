@@ -30,6 +30,13 @@ function headerShadow() {
 
 
 // TYPING EFFECT----------------
+var typingEffect = new Typed(".typedText",{
+    strings: ["Web Developer", "Designer", "Freelancer"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000
+})
 
 
 // ---------- ## SCROLL REVEAL ANIMATION ## -------------- 
@@ -37,4 +44,8 @@ function headerShadow() {
 // ----- HOME 
 
 
-// ----- PROJECTS BOX
+// ----- PROJECTS BOX---------------------/
+
+// ----- HOME---------------------/
+
+// ----- PROJECTS---------------------/
